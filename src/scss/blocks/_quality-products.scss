@@ -1,0 +1,34 @@
+.quality-products {}
+
+.best-products {
+    padding: 130px 0 113px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 86px;
+}
+
+.product__item {
+    display: grid;
+    gap: 24px;
+    text-align: center;
+    padding: 8px 25px 18px;
+}
+
+.product-pict {
+    display: inline-block;
+}
+
+.product__title {
+    font-size: 25px;
+}
+
+.product__text {
+    font-family: var(--font-main);
+    font-size: 16px;
+    line-height: 1.5;
+    opacity: 0.6;
+}
+
+.btn {}
+
+.btn-light {}
