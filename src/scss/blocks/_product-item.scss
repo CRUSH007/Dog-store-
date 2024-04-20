@@ -1,0 +1,25 @@
+.product-item {
+    width: 360px;
+    &:nth-child(1),
+    &:nth-child(2) {
+        width: 555px;
+    }
+}
+
+.product__photo {
+    display: flex;
+    height: 420px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.product__title {
+    font-family: var(--font-accent);
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #170c04;
+    margin-bottom: 9px;
+}

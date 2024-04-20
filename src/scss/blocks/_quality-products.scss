@@ -15,8 +15,23 @@
 }
 
 .product-pict {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 63px;
+    height: 54px;
+    background-image: url('../../img/quality-products/mask.png');
+
+
+    img {
+        width: 37px;
+        height: 37px;
+
+    }
 }
+
+
 
 .product__title {
     font-size: 25px;

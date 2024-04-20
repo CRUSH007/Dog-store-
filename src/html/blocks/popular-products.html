@@ -1,0 +1,12 @@
+<section class="popular-products">
+    <div class="container">
+        <div class="popular-products__inner">
+            <h2 class="products-title">Popular Products</h2>
+            <div class="products__description">A dog in heat needs more than shade The more people I meet the more I like my dog.Dogs leave paw prints forever on our hearts.</div>
+            <div class="popular-products__galary">
+                @@loop('../blocks/templates/product-item.html', './../data/popular-products.json')
+            </div>
+            <a href="#" class="btn btn-light">View All Products</a>
+        </div>
+    </div>
+</section>
