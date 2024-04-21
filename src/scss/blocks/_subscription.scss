@@ -1,0 +1,21 @@
+.subscription {
+    margin-top: 86px;
+}
+.container {
+}
+.subscription__inner {
+    text-align: center;
+}
+.section__title {
+    font-family: var(--font-accent);
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    color: #170c04;
+}
+.subscription__galary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    
+}

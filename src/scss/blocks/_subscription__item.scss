@@ -1,0 +1,27 @@
+.subscription__item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 46px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gallary-item__picture {
+    margin: 36px 0 51px;
+}
+
+.gallary-item__about {}
+
+.gallary-item__title {
+    font-family: var(--font-accent);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.gallary-item__text {
+    font-size: 16px;
+    opacity: 0.6;
+    margin: 22px 0 16px;
+}
