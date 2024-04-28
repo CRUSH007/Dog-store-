@@ -1,0 +1,76 @@
+.swiper,
+.reviews {
+    width: 590px;
+    height: 302px;
+    margin: unset;
+}
+
+
+.navigation {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.button-next,
+.button-prev {
+    height: 35px;
+}
+
+.button-disabled {
+    cursor: default;
+    opacity: 0.5;
+}
+
+// slide
+.swiper-wrapper .swiper-slide {
+    width: 495px; 
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.photo-avatar {
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.avatar-text {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.rating {
+    margin-top: 20px;
+    margin-bottom: 23px;
+    height: 15px;
+    width: 80px;
+    display: inline-grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.icon--star {
+    height: 15px;
+    width: 15px;
+}
+
+.avatar-name {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.avatar-job {
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+}

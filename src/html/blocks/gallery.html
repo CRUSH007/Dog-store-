@@ -1,0 +1,18 @@
+<section class="gallery">
+    <div class="container">
+        <div class="gallery__inner">
+            <div class="gallery-part">
+                <div class="section__title">Popular Products Gallery</div>
+                <div class="gallery__description"><p>A dog in heat needs more than shade The more people I meet the more I like my dog.Dogs leave paw prints forever on our hearts.</p></div>
+                <div class="gallery__presentation">
+                    @@loop('../blocks/templates/gallery-item.html', './../data/gallery-items.json')
+                </div>
+            </div>
+            <div class="gallery-part">
+                <div class="big-picture">
+                    <img src="./../../img/gallery/0.png" srcset="./../../img/gallery/0@2x.png" alt="0">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,23 @@
+<div class="swiper-slide">
+    <div class="photo-avatar">
+        <img src="../../../img/testimonial/@@photo.png" alt="">
+    </div>
+    <div class="avatar-text">
+        <p>@@text</p>
+    </div>
+    <div class="rating">
+        @@if (context.rating <= 5) { 
+            @@for (var i=0; i < context.rating; i++) { 
+                <img src="./../../img/star.svg"
+            alt="Alt">
+            }
+        }
+        
+    </div>
+    <div class="avatar-name">
+        <p>@@name</p>
+    </div>
+    <div class="avatar-job">
+        <p>@@job</p>
+    </div>
+</div>

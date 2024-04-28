@@ -1,0 +1,18 @@
+<section class="testimonial">
+    <div class="testimonial__inner">
+        <div class="testimonial__title">Products Testimonial</div>
+        <div class="swiper reviews">
+            <div class="swiper-wrapper">
+                @@loop('./templates/swiper_slide.html', './../data/slider-testimonial.json')
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="button-prev">
+                <img src="../../img/arrow_up.svg" alt="">
+            </div>
+            <div class="button-next">
+                <img src="../../img/arrow_down.svg" alt="">
+            </div>
+        </div>
+    </div>
+</section>

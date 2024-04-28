@@ -1,0 +1,18 @@
+.testimonial {}
+
+.testimonial__inner {
+    position: relative;
+    width: 620px;
+    height: 370px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 107px;
+}
+
+.testimonial__title {
+    font-family: var(--font-accent);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.4;
+    text-align: center;
+}

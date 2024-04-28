@@ -1,1 +1,93 @@
+.footer {
+    margin-top: 70px;
 
+}
+
+.footer-bg0 {
+    height: 63px;
+    background-color: #140A03;
+    clip-path: polygon(50% 0, 83% 63px, 17% 63px);
+    margin-bottom: -1px;
+}
+
+.footer-bg1 {
+    background-color: #140A03;
+    padding-bottom: 105px;
+}
+
+
+.footer-bg0 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__logo {
+    padding-top: 12px;
+    img {
+        width: 48px;
+        height: 51px;
+        margin: 0 auto;
+    }
+}
+
+.parts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+}
+
+.footer__part {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 37px;
+
+    &:last-child {
+        align-items: end;
+    }
+}
+
+.footer-parts__link {
+    color: #fff;
+    span{
+        color: #e27b3a;
+    }
+}
+
+.footer-title {
+    font-weight: 500;
+    font-size: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 106.5px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social__link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    
+}
+
+.footer .icon {
+    height: 18px;
+    fill: #211105;
+}
+
+.icon--facebook {}
+
+.icon--dreeeble {}
+
+.icon--twitter {}
